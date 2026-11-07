@@ -1,0 +1,16 @@
+# dependencies and third-party apps
+node_modules/
+vendor/
+public_html/phpmyadmin/
+
+# local secrets
+public_html/includes/config.local.php
+
+# logs and editor noise
+*.log
+logs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
